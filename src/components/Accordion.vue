@@ -100,7 +100,7 @@ import Projects from "./Projects.vue"
     
     background-color: white;
     border-top: none;
-    padding: 30px;
+    padding: 31px;
 }
 </style>
   
