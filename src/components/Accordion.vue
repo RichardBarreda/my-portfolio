@@ -91,7 +91,7 @@ import Projects from "./Projects.vue"
 }
 
 .active {
-    color: Black;
+    color: black;
     border-bottom: solid 3px #0A5C36;
     font-weight: 700;
 }
