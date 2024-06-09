@@ -1,7 +1,8 @@
 <template>
     <div class="about-me">
-        <Article :title="titleIntro" :text="textIntro"></Article>
-        <Article :title="titleEducation" :text="textEducation"></Article>
+        <Introduction :title="titleIntro" :text="textIntro"></Introduction>
+        <Education :title="titleEducation" :text="textEducation"></Education>
+        <Technical :title="titleSkills" :text="textSkills"></Technical>
     </div>
 </template>
   
@@ -9,11 +10,14 @@
 
 
 <script>
-  import Article from "./Article.vue"
+  import Introduction from './Introduction.vue'
+  import Education from './Education.vue'
+  import Technical from './Technical.vue'
+
   export default {
     name: 'AboutMe',
     components: {
-      Article
+      Introduction, Education, Technical
     },
     data() {
         return {
@@ -22,6 +26,9 @@
         
           titleEducation: "EDUCATION",
           textEducation: "Tincidunt id aliquet risus feugiat in ante metus dictum at. Nunc congue nisi vitae suscipit tellus mauris a diam maecenas. Fusce ut placerat orci nulla pellentesque dignissim. Maecenas sed enim ut sem viverra aliquet eget sit. Nisl tincidunt eget nullam non nisi est sit amet facilisis. Et odio pellentesque diam volutpat commodo sed egestas egestas fringilla. Neque sodales ut etiam sit amet nisl purus. Amet consectetur adipiscing elit ut aliquam purus. Quis imperdiet massa tincidunt nunc pulvinar sapien. Tellus id interdum velit laoreet id. Pharetra diam sit amet nisl.",
+
+          titleSkills: "PROFESSIONAL SKILLS",
+          textSkills: "Tincidunt id aliquet risus feugiat in ante metus dictum at. Nunc congue nisi vitae suscipit tellus mauris a diam maecenas. Fusce ut placerat orci nulla pellentesque dignissim. Maecenas sed enim ut sem viverra aliquet eget sit. Nisl tincidunt eget nullam non nisi est sit amet facilisis.",
 
         }
     }
@@ -33,6 +40,9 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+.skills-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
 </style>
   

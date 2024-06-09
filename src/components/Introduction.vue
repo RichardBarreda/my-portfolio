@@ -1,7 +1,7 @@
 <template>
-    <div class="article-holder">
-        <p class="article-title">{{title}}</p>
-        <p class="article-text">
+    <div class="introduction-holder">
+        <p class="introduction-title">{{title}}</p>
+        <p class="introduction-text">
             {{text}}
         </p>
 
@@ -14,7 +14,7 @@
 
 <script>
   export default {
-    name: 'Article',
+    name: 'Introduction',
     props: ["title", "text"],
     data() {
         return {
@@ -29,16 +29,19 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.article-holder {
+.introduction-holder {
     padding-bottom: 30px;
 }
 
-.article-title {
+.introduction-title {
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #0A5C36;
 }
 
-.article-text {
+.introduction-text {
     font-size: 18px;
 }
 </style>
