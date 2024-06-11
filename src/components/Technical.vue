@@ -114,7 +114,7 @@
 
             personalSkill1: "Time Management",
             personalIcon1: require('../assets/time.png'),
-            personalLevel1: "75%",
+            personalLevel1: "70%",
 
             personalSkill2: "Creative",
             personalIcon2: require('../assets/creative.png'),
@@ -122,7 +122,7 @@
 
             personalSkill3: "Analytical Skills",
             personalIcon3: require('../assets/analytical.png'),
-            personalLevel3: "75%",
+            personalLevel3: "70%",
 
             personalSkill4: "Communication",
             personalIcon4: require('../assets/communication.png'),
@@ -138,11 +138,11 @@
 
             personalSkill7: "Attention to details",
             personalIcon7: require('../assets/attention.png'),
-            personalLevel7: "75%",
+            personalLevel7: "70%",
 
             personalSkill8: "Problem Solving",
             personalIcon8: require('../assets/solving.png'),
-            personalLevel8: "80%",
+            personalLevel8: "70%",
 
             personalSkill9: "Leadership",
             personalIcon9: require('../assets/leader.png'),
