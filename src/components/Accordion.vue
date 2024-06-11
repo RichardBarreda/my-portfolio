@@ -66,6 +66,7 @@ import Projects from "./Projects.vue"
     align-items: center;
     margin-top: 15px;
     border-bottom: solid 2px gainsboro;
+    padding-bottom: 10px;
 }
 
 .accordion-link {
@@ -87,13 +88,22 @@ import Projects from "./Projects.vue"
 
 .accordion-link:hover {
     cursor: pointer;
-    color: gray;
 }
 
-.active {
+.old-active {
+
     color: black;
     border-bottom: solid 3px #0A5C36;
     font-weight: 700;
+
+}
+
+.active {
+    color: white;
+    border-bottom: solid 3px #0A5C36;
+    font-weight: 700;
+    background-color: #0A5C36;
+    border-radius: 10px;
 }
 
 .accordion-information {
