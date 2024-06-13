@@ -97,5 +97,9 @@
   text-transform: uppercase;
   color: #626262;
 }
+
+.test {
+  font-size: 20px;
+}
 </style>
   
