@@ -9,6 +9,7 @@
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
           mollit anim id est laborum.
       </p>
+      <p class="sub-title"> <i class="bi bi-code-slash"></i> Sample Projects:</p>
       <div class="website-wrapper">
         <Website :name="projectName1" :image="projectImage1" :link="projectLink1" :language="projectLanguage1" :description="projectDescription1" :theme="projectTheme1"></Website>
         <Website :name="projectName2" :image="projectImage2" :link="projectLink2" :language="projectLanguage2" :description="projectDescription2" :theme="projectTheme2"></Website>
@@ -88,6 +89,16 @@
 .website-wrapper {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+
+.sub-title {
+  margin-top: 20px;
+
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #0A5C36;
 }
 </style>
   

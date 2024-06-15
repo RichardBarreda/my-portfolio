@@ -33,7 +33,7 @@
                             <div class="carousel-item" :class="{ active: picture.key=='img1' }" v-for="picture in gallery" :key="picture.key">
                                 <p class="gallery-description">{{picture.caption}}</p>
                                 <div class="gallery-border">
-                                    <img :src="picture.location" class="d-block w-100" alt="...">
+                                    <img :src="picture.location" class="d-block w-100 img-fluid" alt="...">
                                     <p class="date-float">{{picture.date}}</p>
                                 </div>
                                 
@@ -130,6 +130,13 @@
 .gallery-border {
     border: solid 2px #198754;
     position: relative;
+}
+
+.img-fluid {
+    height: 300px;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
 }
 
 .date-float {

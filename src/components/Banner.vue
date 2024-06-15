@@ -32,7 +32,7 @@
     },
     data() {
         return {
-            avatarIcon: require('../assets/me-avatar.jpg'),
+            avatarIcon: require('../assets/me-real.jpg'),
 
             greetings: "Hello There!",
             name: "RICHARD",

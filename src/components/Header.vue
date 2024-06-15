@@ -2,6 +2,10 @@
     <div class="header-holder">
         <div class="custom-container">
             <div class="content-holder">
+                <div class="portfolio-title">
+                    <i class="bi bi-journal-album head-icon"></i>
+                    <p class="title-text">MY PORTFOLIO</p>
+                </div>
                 <div class="social-media-group">
                     <div class="social-media">
                         <i class="bi bi-facebook"></i>
@@ -57,9 +61,29 @@ import HelloWorld from './HelloWorld.vue';
 
 .content-holder {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     height: 100%;
+}
+
+.portfolio-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-icon {
+    font-size: 28px;
+    color: white;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.title-text {
+    font-size: 28px;
+    color: white;
+    font-weight: 700;
+    font-family: monospace;
 }
 
 .social-media-group {

@@ -84,6 +84,8 @@
             { key:"img1", location: require('../assets/nanox-img-1.jpg'), date: "October 16, 2022", caption: "Current IT Staff with OJT on a very ordinary day!"},
             { key:"img2", location: require('../assets/nanox-img-2.jpg'), date: "June 12, 2022", caption: "In vulputate ex et faucibus elementum. Nunc nisi libero, accumsan!"},
             { key:"img3", location: require('../assets/nanox-img-3.jpg'), date: "December 25, 2022", caption: "Suspendisse dolor neque, laoreet vel pulvinar a, rutrum non est."},
+            { key:"img3", location: require('../assets/nanox-img-4.jpg'), date: "December 25, 2022", caption: "Suspendisse dolor neque, laoreet vel pulvinar a, rutrum non est."},
+            { key:"img3", location: require('../assets/nanox-img-5.jpg'), date: "December 25, 2022", caption: "Suspendisse dolor neque, laoreet vel pulvinar a, rutrum non est."},
           ],
 
           workId2: "fullstack",
@@ -93,9 +95,11 @@
           workAddress2: "Sto. Rosario St. Angeles City, Pampanga",
           workPosition2: "Front End Developer",
           workGallery2: [
-            { key:"img1", location: require('../assets/fullstack-img-1.jpg'), date: "October 16, 2022", caption: "Current IT Staff with OJT on a very ordinary day!"},
-            { key:"img2", location: require('../assets/fullstack-img-2.jpg'), date: "June 12, 2022", caption: "In vulputate ex et faucibus elementum. Nunc nisi libero, accumsan!"},
-            { key:"img3", location: require('../assets/fullstack-img-3.jpg'), date: "December 25, 2022", caption: "Suspendisse dolor neque, laoreet vel pulvinar a, rutrum non est."},
+            { key:"img1", location: require('../assets/fullstack-img-1.jpg'), date: "September, 2019", caption: "Weekly Team Building Activity. All employees are divided into different teams to compete with various games."},
+            { key:"img2", location: require('../assets/fullstack-img-2.jpg'), date: "October, 2019", caption: "Monthly Birthday Celebration! Also TGIF because we usually schedule this kind of party every last friday of the month!"},
+            { key:"img3", location: require('../assets/fullstack-img-3.jpg'), date: "December 22, 2019", caption: "Fullstack HQ Year-End Thanksgiving Party 2019! Celebrating with lots of foods, games, prizes and gifts for everyone!"},
+            { key:"img4", location: require('../assets/fullstack-img-4.jpg'), date: "August 16-17, 2019", caption: "FSHQ team celebrated the company's 4th year at Villa de Venancia last 2019. Definitely one for the books!"},
+            { key:"img5", location: require('../assets/fullstack-img-5.jpg'), date: "February 27, 2020", caption: "Pizza, spaghetti, and drinks are in! Here we are Celebrating small wins with our project team."},
           ],
 
           workId3: "mvp",
