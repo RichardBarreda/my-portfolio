@@ -36,5 +36,12 @@ import Accordion from './Accordion.vue'
     
     padding-right: 15px;
 }
+
+@media (max-width: 991.98px) {
+    .content-holder {
+        width: 100%;
+        padding-right: 0px;
+    }
+}
 </style>
   

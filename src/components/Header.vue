@@ -23,6 +23,64 @@
                         <i class="bi bi-telephone-fill"></i>
                     </div>
                 </div>
+
+                <button class="btn btn-outline-light mobile-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                    <i class="bi bi-list"></i>
+                </button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+        <div class="offcanvas-header">
+            <!-- <h5 class="offcanvas-title" id="staticBackdropLabel">Social Media</h5> -->
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="social-media-mobile">
+                <div class="social-media-icon-holder">
+                    <i class="bi bi-facebook mobile-bi-icon"></i>
+                </div>
+                <div class="social-media-text-holder">
+                    <p class="media-text">Facebook</p>
+                </div>
+            </div>
+
+            <div class="social-media-mobile">
+                <div class="social-media-icon-holder">
+                    <i class="bi bi-linkedin mobile-bi-icon"></i>
+                </div>
+                <div class="social-media-text-holder">
+                    <p class="media-text">Linkedin</p>
+                </div>
+            </div>
+
+            <div class="social-media-mobile">
+                <div class="social-media-icon-holder">
+                    <i class="bi bi-github mobile-bi-icon"></i>
+                </div>
+                <div class="social-media-text-holder">
+                    <p class="media-text">Github</p>
+                </div>
+            </div>
+
+            <div class="social-media-mobile">
+                <div class="social-media-icon-holder">
+                    <i class="bi bi-envelope-at-fill mobile-bi-icon"></i>
+                </div>
+                <div class="social-media-text-holder">
+                    <p class="media-text">Email</p>
+                </div>
+            </div>
+
+            <div class="social-media-mobile">
+                <div class="social-media-icon-holder">
+                    <i class="bi bi-telephone-fill mobile-bi-icon"></i>
+                </div>
+                <div class="social-media-text-holder">
+                    <p class="media-text">Mobile</p>
+                </div>
             </div>
         </div>
     </div>
@@ -32,9 +90,14 @@
 
 
 <script>
+import Activity from './SideActivity.vue'
+import FactsAboutMe from './FactsAboutMe.vue'
 import HelloWorld from './HelloWorld.vue';
   export default {
     name: 'Header',
+    components: {
+        Activity, FactsAboutMe
+    },
     data() {
         return {
 
@@ -99,6 +162,55 @@ import HelloWorld from './HelloWorld.vue';
 .social-media:hover {
     cursor: pointer;
     opacity: .5;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.offcanvas-body { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-media-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.social-media-icon-holder {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-bi-icon {
+    font-size: 30px;
+}
+
+.media-text {
+    font-size: 20px;
+}
+
+@media (max-width: 575.98px) {
+    .social-media-group {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .title-text {
+        font-size: 24px;
+        letter-spacing: 0px;
+    }
 }
 
 </style>

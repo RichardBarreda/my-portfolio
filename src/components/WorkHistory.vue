@@ -128,5 +128,17 @@
   color: rgb(14, 14, 14);
   list-style-type:square;
 }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .bullet-items {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .bullet-items {
+    font-size: 14px;
+  } 
+}
 </style>
   

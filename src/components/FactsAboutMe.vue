@@ -94,7 +94,7 @@ export default {
 }
 
 .details-holder {
-    height: 200px;
+    height: 220px;
     padding: 15px;
 }
 
@@ -109,6 +109,19 @@ export default {
     font-size: 14px;
     line-height: 20px;
     color: #575757;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .details-holder {
+        height: 270px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .details-holder {
+        height: 250px;
+    }
 }
 
 </style>

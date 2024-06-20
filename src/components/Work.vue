@@ -41,7 +41,7 @@
                         </div>
 
                         <div class="footer-holder">
-                            <div class="footer-group">
+                            <div class="footer-group footer-group-emote">
                                 <div class="gallery-emote"> <i class="bi bi-hand-thumbs-up-fill"></i> </div>
                                 <div class="gallery-emote"> <i class="bi bi-heart-fill"></i> </div>
                                 <div class="gallery-emote"> <i class="bi bi-emoji-sunglasses-fill"></i> </div>
@@ -157,6 +157,8 @@
     font-size: 18px;
     color: black;
     text-decoration: none;
+
+    display: none;
 }
 
 .footer-holder {
@@ -227,6 +229,68 @@
     margin-right: 3px;
     font-weight: 500;
     font-size: 18px;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .work-info {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .work-position {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  .work-company {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 575.98px) {
+    .work-info {
+    font-size: 15px;
+    line-height: 20px;
+
+    text-indent: -13px;
+    margin-left: 25px;
+  }
+
+  .work-position {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .work-link {
+    margin-left: 10px;
+  }
+
+  .work-company {
+    font-size: 20px;
+  }
+
+  .modal-dialog {
+    width: auto;
+  }
+
+  .img-fluid {
+    height: 230px;
+    object-position: right;
+  }
+
+  .footer-group-emote {
+    display: none;
+  }
+
+  .footer-group {
+    width: 100%;
+  }
+
+  .gallery-button {
+        margin-left: 5px;
+        width: 100%;
+        margin-right: 5px;
+    }
 }
 
 </style>

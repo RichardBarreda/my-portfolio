@@ -31,7 +31,7 @@ p {
 
 .fact-swiper .swiper-button-prev,
 .fact-swiper .swiper-button-next {
-    margin-top: -45px;
+    margin-top: -55px;
     background-color: #f5f5f5e0;
     border-radius: 10px;
     height: auto;
@@ -50,6 +50,24 @@ p {
     font-size: 18px;
     color: black;
     font-weight: 800;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .fact-swiper .swiper-button-prev,
+  .fact-swiper .swiper-button-next {
+      margin-top: -80px;
+  }    
+}
+
+@media (max-width: 575.98px) {
+  .custom-container {
+    padding: 0px 15px;
+  }  
+  
+  .fact-swiper .swiper-button-prev,
+  .fact-swiper .swiper-button-next {
+      margin-top: -70px;
+  } 
 }
 
 </style>

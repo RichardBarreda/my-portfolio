@@ -101,5 +101,55 @@
 .test {
   font-size: 20px;
 }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .skills-holder {
+    width: 45%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .skills-holder {
+    width: 45%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .skills-holder {
+      margin-right: 10px;
+      width: 47%;
+      margin-top: 12px;
+  }
+
+  .skill-name {
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .confidence-label {
+      font-size: 9px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .skills-holder {
+      margin-right: 10px;
+      width: 100%;
+      margin-top: 12px;
+  }
+
+  .skill-name {
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .confidence-label {
+      font-size: 9px;
+  }
+}
 </style>
   

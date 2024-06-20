@@ -43,5 +43,11 @@ import SideNav from './SideNav.vue';
 .body-wrapper {
     display: flex;
 }
+
+@media (max-width: 991.98px) { 
+    .body-wrapper {
+        flex-direction: column;
+    }
+}
 </style>
   

@@ -191,5 +191,46 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .technical-text {
+        font-size: 14px;
+    }
+
+    .technical-title {
+        font-size: 22px;
+        margin-bottom: 2px;
+    }
+
+    .sub-title {
+        font-size: 22px;
+        margin-bottom: 2px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .technical-text {
+        font-size: 14px;
+    }
+
+    .technical-title {
+        font-size: 22px;
+        margin-bottom: 2px;
+    }
+
+    .sub-title {
+        font-size: 22px;
+        margin-bottom: 2px;
+    }
+
+    .skills-wrapper {
+        height: 330px;
+        overflow: scroll;
+    }
+
+    .skill-group {
+        padding-bottom: 0px;
+    }
+}
 </style>
   

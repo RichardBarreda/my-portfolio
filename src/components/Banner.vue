@@ -157,5 +157,129 @@
     border-color: #004D40;
 }
 
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+ 
+    .links-container {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+
+    .txt-name {
+        font-size: 40px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .txt-name {
+        font-size: 40px;
+    }
+
+    .links-container {
+        margin-bottom: 20px;
+    }
+
+    .profile-btn {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .txt-name {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .links-container {
+        flex-direction: row;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+
+    .profile-btn {
+        font-size: 13px;
+    }
+
+    .img-avatar {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 15px;
+    }
+
+    .profile-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner-holder {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-outline-light {
+        margin-right: 15px;
+    }
+
+
+}
+
+
+@media (max-width: 575.98px) {
+    .txt-name {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .txt-title {
+        font-size: 14px;
+    }
+
+    .links-container {
+        flex-direction: row;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+
+    .info-container {
+        margin-left: 0px;
+    }
+
+    .txt-greetings {
+        font-size: 18px;
+    }
+
+    .profile-btn {
+        font-size: 13px;
+    }
+
+    .img-avatar {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 15px;
+    }
+
+    .profile-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner-holder {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-outline-light {
+        margin-right: 15px;
+    }
+
+}
 </style>
   

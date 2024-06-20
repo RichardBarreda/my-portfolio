@@ -100,5 +100,27 @@
   text-transform: uppercase;
   color: #0A5C36;
 }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .project-text {
+    font-size: 14px;
+  }
+
+  .project-title {
+        font-size: 22px;
+        margin-bottom: 2px;
+    }
+}
+
+@media (max-width: 575.98px) {
+  .project-text {
+    font-size: 14px;
+  }
+
+  .project-title {
+        font-size: 22px;
+        margin-bottom: 2px;
+    }  
+}
 </style>
   
