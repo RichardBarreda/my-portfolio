@@ -38,7 +38,7 @@
             name: "RICHARD",
             jobTitle: "IT SPECIALIST / WEB DEVELOPER",
 
-            btnDownload: "VIEW CV",
+            btnDownload: "VIEW RESUME",
             cvLink: "https://drive.google.com/file/d/1F3TgCOl6Gk_S45hqIU4EcP0RXKjCX7-q/view?usp=sharing",
             btnMessage: "MESSAGE ME",
         }

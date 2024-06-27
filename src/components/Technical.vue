@@ -21,6 +21,7 @@
                 <Skills :name="skillName10" :icon="skillIcon10" :level="skillLevel10"></Skills>
                 <Skills :name="skillName11" :icon="skillIcon11" :level="skillLevel11"></Skills>
                 <Skills :name="skillName12" :icon="skillIcon12" :level="skillLevel12"></Skills>
+                <Skills :name="skillName14" :icon="skillIcon14" :level="skillLevel14"></Skills>
             </div>
         </div>
 
@@ -107,6 +108,10 @@
             skillName13: "REACT",
             skillIcon13: require('../assets/react.png'),
             skillLevel13: "20%",
+
+            skillName14: "GitHub",
+            skillIcon14: require('../assets/github.png'),
+            skillLevel14: "75%",
 
 
 

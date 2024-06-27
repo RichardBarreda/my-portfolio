@@ -24,7 +24,7 @@
 
                     <div class="form-btn">
                         <button type="button" class="btn btn-secondary btn-footer">CLEAR</button>
-                        <button type="button" class="btn btn-success btn-footer">SUBMIT</button>
+                        <button type="button" class="btn btn-success btn-footer" disabled>SUBMIT</button>
                     </div>
                 </form>
             </div>
