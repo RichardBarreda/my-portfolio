@@ -8,19 +8,19 @@
                 </div>
                 <div class="social-media-group">
                     <div class="social-media">
-                        <i class="bi bi-facebook"></i>
+                        <a href="https://www.facebook.com/chardbarreda" class="header-link" target="_blank"><i class="bi bi-facebook"></i></a>
                     </div>
                     <div class="social-media">
-                        <i class="bi bi-linkedin"></i>
+                        <a href="https://www.linkedin.com/" class="header-link" target="_blank"><i class="bi bi-linkedin"></i></a>
                     </div>
                     <div class="social-media">
-                        <i class="bi bi-github"></i>
+                        <a href="https://github.com/RichardBarreda" class="header-link" target="_blank"><i class="bi bi-github"></i></a>
                     </div>
                     <div class="social-media">
-                        <i class="bi bi-envelope-at-fill"></i>
+                        <a href="mailto:barredarichardmarck@gmail.com" class="header-link" target="_blank"><i class="bi bi-envelope-at-fill"></i></a>
                     </div>
                     <div class="social-media">
-                        <i class="bi bi-telephone-fill"></i>
+                        <a href="tel:09081452759" class="header-link" target="_blank"><i class="bi bi-telephone-fill"></i></a>
                     </div>
                 </div>
 
@@ -43,7 +43,7 @@
                     <i class="bi bi-facebook mobile-bi-icon"></i>
                 </div>
                 <div class="social-media-text-holder">
-                    <p class="media-text">Facebook</p>
+                    <a class="media-text" href="https://www.facebook.com/chardbarreda" target="_blank">Facebook</a>
                 </div>
             </div>
 
@@ -52,7 +52,7 @@
                     <i class="bi bi-linkedin mobile-bi-icon"></i>
                 </div>
                 <div class="social-media-text-holder">
-                    <p class="media-text">Linkedin</p>
+                    <a class="media-text" href="https://www.linkedin.com/" target="_blank">Linkedin</a>
                 </div>
             </div>
 
@@ -61,7 +61,7 @@
                     <i class="bi bi-github mobile-bi-icon"></i>
                 </div>
                 <div class="social-media-text-holder">
-                    <p class="media-text">Github</p>
+                    <a class="media-text" href="https://github.com/RichardBarreda" target="_blank">Github</a>
                 </div>
             </div>
 
@@ -70,7 +70,7 @@
                     <i class="bi bi-envelope-at-fill mobile-bi-icon"></i>
                 </div>
                 <div class="social-media-text-holder">
-                    <p class="media-text">Email</p>
+                    <a class="media-text" href="mailto:barredarichardmarck@gmail.com" target="_blank">Email</a>
                 </div>
             </div>
 
@@ -79,7 +79,7 @@
                     <i class="bi bi-telephone-fill mobile-bi-icon"></i>
                 </div>
                 <div class="social-media-text-holder">
-                    <p class="media-text">Mobile</p>
+                    <a class="media-text" href="tel:09081452759" target="_blank">Mobile</a>
                 </div>
             </div>
         </div>
@@ -133,6 +133,10 @@ import HelloWorld from './HelloWorld.vue';
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.header-link {
+    color: white;
 }
 
 .head-icon {
@@ -196,6 +200,8 @@ import HelloWorld from './HelloWorld.vue';
 
 .media-text {
     font-size: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 @media (max-width: 575.98px) {

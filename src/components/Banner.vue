@@ -12,7 +12,7 @@
             </div>
         </div>
         <div class="links-container">
-            <button type="button" class="btn btn-outline-light profile-btn">{{btnDownload}}</button>
+            <a type="button" class="btn btn-outline-light profile-btn" :href="cvLink" target="_blank">{{btnDownload}}</a>
             <button type="button" class="btn btn-light profile-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">{{btnMessage}}</button>
         </div>
     </div>
@@ -38,7 +38,8 @@
             name: "RICHARD",
             jobTitle: "IT SPECIALIST / WEB DEVELOPER",
 
-            btnDownload: "DOWNLOAD CV",
+            btnDownload: "VIEW CV",
+            cvLink: "https://drive.google.com/file/d/1F3TgCOl6Gk_S45hqIU4EcP0RXKjCX7-q/view?usp=sharing",
             btnMessage: "MESSAGE ME",
         }
     }

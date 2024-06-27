@@ -4,7 +4,7 @@
             <img :src="image" class="img-fluid" />
         </div>
         <div class="website-information" :style="'background-color:'+theme">
-            <a :href="link" class="website-title">{{name}}</a>
+            <a :href="link" target="_blank" class="website-title">{{name}}</a>
             <div class="website-language">
                 <div class="lang-holder" v-for="lang in language" :key="lang">{{lang}}</div>
             </div>
