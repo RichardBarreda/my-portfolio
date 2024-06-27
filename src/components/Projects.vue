@@ -2,13 +2,11 @@
     <div class="project-holder">
       <p class="project-title">Projects</p>
       <p class="project-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-          mollit anim id est laborum.
+          With my 3 years of experience as a Web Developer, I already worked with lots of front-end development projects, but unfortunately I cannot disclose
+          any information regarding my previous website projects due to the Confidentiality Agreement with my previous employers and with the copyright / code ownership. I can't publicly share the code without the client's permission.
+          But to give an idea, I think I've already worked with approximately 11 Web Development Projects.
       </p>
+      <p class="project-text">Listed below are some of my sample website projects, with the Nanox Philippines Inc. Company Website as my recent Front-end project.</p>
       <p class="sub-title"> <i class="bi bi-code-slash"></i> Sample Projects:</p>
       <div class="website-wrapper">
         <Website :name="projectName1" :image="projectImage1" :link="projectLink1" :language="projectLanguage1" :description="projectDescription1" :theme="projectTheme1"></Website>
@@ -36,26 +34,26 @@
           projectImage1: require('../assets/nanox-website.png'),
           projectLink1: "https://nanoxphilippines.com/",
           projectLanguage1: ["HTML", "CSS", "SASS", "JS"],
-          projectDescription1: "Company website for Nanox Business / Marketing Team to get customers domestically and overseas.",
+          projectDescription1: "Company website for Nanox Philippines Inc. Featuring the products and services they offer.",
           projectTheme1: "#1c4175",
 
           projectName2: "Ticketing System",
           projectImage2: require('../assets/ticketing-system.png'),
-          projectLink2: "https://nanoxphilippines.com/",
-          projectLanguage2: ["HTML", "CSS", "SASS", "JS", "LARAVEL"],
-          projectDescription2: "Internal system I created for Nanox Philippines IT Department. System that allows other employee to submit a ticket for IT Support.",
-          projectTheme2: "#1565C0",
+          projectLink2: "https://richardbarreda.github.io/ticketing-system/",
+          projectLanguage2: ["HTML", "CSS", "VUE", "JS"],
+          projectDescription2: "Sample Front-end concept for an IT Department Ticketing System.",
+          projectTheme2: "#563d7c",
 
           projectName3: "My Portfolio",
           projectImage3: require('../assets/portfolio-website.png'),
-          projectLink3: "https://nanoxphilippines.com/",
+          projectLink3: "https://richardbarreda.github.io/my-portfolio/",
           projectLanguage3: ["HTML", "CSS", "VUE", "JS"],
           projectDescription3: "My personal space that features my work information, projects, and skills.",
           projectTheme3: "#004D40",
 
           projectName4: "Cashless Payment System",
           projectImage4: require('../assets/cps-system.png'),
-          projectLink4: "https://nanoxphilippines.com/",
+          projectLink4: "",
           projectLanguage4: ["HTML", "CSS", "SASS", "JS", "LARAVEL"],
           projectDescription4: "POS I develop for Nanox to provide Cashless Payment and to avoild physical contact with money due to covid19 pandemic.",
           projectTheme4: "#808080",

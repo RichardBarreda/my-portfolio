@@ -22,13 +22,13 @@
     data() {
         return {
           titleIntro: "ABOUT ME",
-          textIntro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque sodales ut etiam sit amet nisl. Sed euismod nisi porta lorem mollis. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Sit amet volutpat consequat mauris. Tincidunt ornare massa eget egestas purus viverra. Molestie nunc non blandit massa enim nec. Id ornare arcu odio ut sem nulla pharetra diam sit. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Nibh cras pulvinar mattis nunc sed blandit libero volutpat. Proin sed libero enim sed faucibus turpis in eu mi. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Auctor eu augue ut lectus arcu bibendum. Elit eget gravida cum sociis natoque penatibus et. Duis tristique sollicitudin nibh sit amet commodo nulla.",
+          textIntro: "Hi there! I am Richard Marck Barreda. An IT Specialist and Web developer from Angeles City Pampanga, Philippines. As an IT Specialist I have an experience working on Technical Support Industry wherein I was able to provide technical assistance to employees who are experiencing issues with their computer whether it is a hardware or software problem. I am also a Web developer that specialized in front-end development. I have an approximately 3 years of experience on web development, part of those experience were the knowledge and skills I gain to be a front-end developer from my first company and the experience I gain from my current company wherein I was able to explore the side of a back-end developer. My ultimate goal as a web developer is to become a full-fledged Full-Stack Developer. I know that there will be alot of challenges along my way but I am standing confident, because I am dedicated and eager to learn new technologies and frameworks to stay current in this ever-evolving field.",
         
           titleEducation: "EDUCATION",
           textEducation: "Tincidunt id aliquet risus feugiat in ante metus dictum at. Nunc congue nisi vitae suscipit tellus mauris a diam maecenas. Fusce ut placerat orci nulla pellentesque dignissim. Maecenas sed enim ut sem viverra aliquet eget sit. Nisl tincidunt eget nullam non nisi est sit amet facilisis. Et odio pellentesque diam volutpat commodo sed egestas egestas fringilla. Neque sodales ut etiam sit amet nisl purus. Amet consectetur adipiscing elit ut aliquam purus. Quis imperdiet massa tincidunt nunc pulvinar sapien. Tellus id interdum velit laoreet id. Pharetra diam sit amet nisl.",
 
           titleSkills: "PROFESSIONAL SKILLS",
-          textSkills: "Tincidunt id aliquet risus feugiat in ante metus dictum at. Nunc congue nisi vitae suscipit tellus mauris a diam maecenas. Fusce ut placerat orci nulla pellentesque dignissim. Maecenas sed enim ut sem viverra aliquet eget sit. Nisl tincidunt eget nullam non nisi est sit amet facilisis.",
+          textSkills: "",
 
         }
     }

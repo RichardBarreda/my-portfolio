@@ -1,13 +1,8 @@
 <template>
     <div class="education-holder">
         <p class="education-title">{{title}}</p>
-        <p class="education-text">
-            {{text}}
-        </p>
 
         <div class="school-holder">
-            <School></School>
-            <School></School>
             <School></School>
         </div>
         
@@ -57,7 +52,7 @@
 .school-holder {
     display: flex;
     margin-top: 20px;
- 
+    flex-direction: column;
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {

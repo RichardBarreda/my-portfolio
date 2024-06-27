@@ -136,7 +136,7 @@
             personalIcon6: require('../assets/organizational.png'),
             personalLevel6: "75%",
 
-            personalSkill7: "Attention to details",
+            personalSkill7: "Flexible",
             personalIcon7: require('../assets/attention.png'),
             personalLevel7: "70%",
 
